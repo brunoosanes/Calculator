@@ -1,0 +1,108 @@
+
+body {
+    background-color: rgb(143, 190, 161);
+}
+
+.title {
+    font-size: 4em;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.container {
+    box-shadow: 5px 5px 5px 5px rgb(134, 134, 134);
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    background-color: #212121;
+}
+.display {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 100px;
+    width: 350px;
+    text-align: end;
+    margin-top: 7px;
+}
+.mainDisplay {
+    font-size: 3em;
+    color: rgb(139, 240, 108);
+    margin-right: 5px;
+}
+.minorDisplay {
+    font-size: 2em;
+    color: rgb(96, 163, 76);
+    margin-right: 5px;
+}
+.firstRow {
+    display: flex;
+    height: 70px;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.clearBtn {
+    color: rgb(92, 92, 223);
+}
+
+.deleteBtn {
+    color: rgb(238, 72, 60);
+}
+
+.secondRow {
+    display: flex;
+    height: 70px;
+    width: 350px;
+    justify-content: space-between;
+
+}
+.thirdRow {
+    display: flex;
+    height: 70px;
+    width: 350px;
+    justify-content: space-between;
+
+}
+.fourthRow {
+    display: flex;
+    height: 70px;
+    width: 350px;
+    justify-content: space-between;
+
+}
+.fifthRow {
+    display: flex;
+    height: 70px;
+    width: 350px;
+    justify-content: space-between;
+
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(139, 240, 108);
+    background-color: #212121;
+    border: #252525 1px solid;
+    border-radius: 50%;
+}
+
+.firstRow button {
+    width: 163px;
+
+}
+
+footer p {
+    text-align: center;
+    font-style: italic;
+
+}
